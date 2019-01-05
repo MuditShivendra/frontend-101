@@ -1,6 +1,7 @@
 # frontend-101
 
-1.A-1 - frontend-101/A/A-1.html
-2.A-2 - frontend-101/A/A-2.html
-3.A-3 - frontend-101/A/A-2.html
+# A - projects :- 
+# A-1 - Responsive Nav Bar
+# A-2 - Grid using CSS Flexbox
+# A-3 - Members section
       
