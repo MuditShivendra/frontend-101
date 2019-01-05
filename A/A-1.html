@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>A-1 Winter project</title>
+	<link rel="stylesheet" type="text/css" href="A-1.css">
+	<link href="https://fonts.googleapis.com/css?family=Lato:100,300,400" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+	<nav class="upperBar" id="navBar">
+		<a href="#">ACM BITS Pilani</a><!--
+		--><a href="A-1.html" >Home</a><!--
+		--><a href="A-2.html">Grid Project</a><!--
+		--><a href="A-3.html" >Members Section</a><!--
+		--><a href="#" >About</a><!--
+		--><a href="#" >Contact</a><!--
+		--><a href="javascript:void(0);" class="icon" onclick="hamburger()"><i class="fa fa-bars" aria-hidden="true"></i></a>
+	</nav>
+	<h1>Welcome to my WINTER PROJECT WEBSITE</h1>
+<script>
+function hamburger() {
+  var x = document.getElementById("navBar");
+  if (x.className === "upperBar") {
+    x.className += " clicked";
+  } else {
+    x.className = "upperBar";
+  }
+}
+</script>
+</body>
+</html>
