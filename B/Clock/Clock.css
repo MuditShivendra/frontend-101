@@ -1,0 +1,52 @@
+body{
+    background-color: green;
+}
+
+#clock{
+    position: absolute;
+    top: 15%;
+    left: 600px;
+   
+}
+#svg1901{
+    height: 550px;
+}
+#hour-hand {
+    background: #000;
+    height: 12%;
+    left: 862px;
+    position: absolute;
+    top: 33%;
+    transform-origin: 50% 77%;
+    width: 1%;
+    transform: rotateZ(418deg);
+    animation: rotate 43200s infinite linear;
+}
+#min-hand {
+    background: #000;
+    height: 25%;
+    left: 862px;
+    position: absolute;
+    top: 18.5%;
+    transform-origin: 50% 100%;
+    width: 1%;
+    /* transform: rotateZ(1081deg); */
+    animation: rotate 3600s infinite linear;
+}
+#sec-hand {
+    background: #000;
+    height: 31%;
+    left: 871px;
+    position: absolute;
+    top: 17%;
+    transform-origin: 50% 85%;
+    width: .2%;
+    z-index: 8;
+    animation: rotate 60s infinite steps(60);
+}
+
+@keyframes rotate{
+    100% {
+        transform: rotateZ(360deg);
+    }
+}
