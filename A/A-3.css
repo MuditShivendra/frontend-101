@@ -155,5 +155,14 @@ h6 {
 	font-size: 16px;
 	color: black;
 }
-
+/* ================Add member section================ */
+#add-mem{
+		position: absolute;
+		left: 48%;
+}
+form{
+	border: 2px solid blue;
+	text-align: center;
+	display: none;
+}
 
